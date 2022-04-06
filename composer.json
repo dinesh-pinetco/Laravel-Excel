@@ -1,5 +1,5 @@
 {
-  "name": "maatwebsite/excel",
+  "name": "dinesh-pinetco/excel",
   "description": "Supercharged Excel exports and imports in Laravel",
   "license": "MIT",
   "keywords": [
@@ -31,21 +31,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Maatwebsite\\Excel\\": "src/"
+      "dinesh-pinetco\\Excel\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Maatwebsite\\Excel\\Tests\\": "tests/"
+      "dinesh-pinetco\\Excel\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Maatwebsite\\Excel\\ExcelServiceProvider"
+        "dinesh-pinetco\\Excel\\ExcelServiceProvider"
       ],
       "aliases": {
-        "Excel": "Maatwebsite\\Excel\\Facades\\Excel"
+        "Excel": "dinesh-pinetco\\Excel\\Facades\\Excel"
       }
     }
   },
